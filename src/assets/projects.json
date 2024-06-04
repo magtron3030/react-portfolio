@@ -1,0 +1,44 @@
+[
+   {
+      "title": "TekTok",
+      "description": "A social media site where tech minded people come together",
+      "image": "/1.png",
+      "gitHub": "https://github.com/rvbouu/tektok",
+      "renderlink": "https://tektok.onrender.com/"
+   },
+   {
+      "title": "Brew Bound",
+      "description": "A website to find your favorite local brewery.",
+      "image": "/brew-bound-logo-wbackground.png",
+      "gitHub": "https://github.com/TyWalter/brew-bound",
+      "renderlink": "https://tywalter.github.io/brew-bound/"
+   },
+   {
+      "title": "Note Taker",
+      "description": "Note taker is a website where you can take, keep, and organize notes",
+      "image": "/notetaker.png",
+      "gitHub": "https://github.com/magtron3030/note.taker",
+      "renderlink": "https://note-taker-fdlc.onrender.com"
+   },
+   {
+      "title": "Beginner Portfolio",
+      "description": "This was our first website and beginner portfolio",
+      "image": "/mtrainer.jpeg",
+      "gitHub": "https://github.com/magtron3030/portfolio.html",
+      "renderlink": "https://magtron3030.github.io/portfolio.html/"
+   },
+   {
+      "title": "Personal Blog",
+      "description": "An blog to use for personal blogs about aviation experiences",
+      "image": "/airplane.jpeg",
+      "gitHub": "https://github.com/magtron3030/personal.blog",
+      "renderlink": "https://magtron3030.github.io/personal.blog/"
+   },
+   {
+      "title": "Task Board",
+      "description": "A simple Kanbad task board",
+      "image": "/task.board.png",
+      "gitHub": "https://github.com/magtron3030/task-board",
+      "renderlink": "https://magtron3030.github.io/task-board/"
+   }
+]

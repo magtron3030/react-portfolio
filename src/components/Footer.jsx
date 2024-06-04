@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
   export default function Footer() {
   return (
     <footer className="row fixed-bottom">
-       <nav className="container col-6">
+       <nav className="container col-6 mt-3">
         <ul className= "row justify-content-between align-items-center list-unstyled">
           <li className="col-2">
             <a href="https://www.linkedin.com/in/maggie-mcdowell-927778106/" target= "_blank" className="text-light text-decoration-none">LinkedIn</a>

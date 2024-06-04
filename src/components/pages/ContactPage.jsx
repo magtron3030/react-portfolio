@@ -10,7 +10,7 @@ export default function ContactPage() {
 
   const [sucessMessage, setSuccessMessage] = useState("");
 
-  const [errorMsg, setErrorMsg] = useState("");
+  const [errorMesssage, setErrorMessage] = useState("");
   
 
 
@@ -23,43 +23,50 @@ function handleInputChange(event){
 }
 
 return (
+
   <div>
+
+   <div className="container mt-5">
+   <h1>Get in touch!</h1>
+   </div>
+
     <form className = 'card p-3 mt-5 bg-light'>
 
-    <label>Name</label>
+    <label className="m-1">Name</label>
       <input
+        className="m-2 form-control"
         type="text"
         name="name"
         placeholder="type name here"
         value={formData.name}
         onChange={handleInputChange}
+        required
       />
 
-      <label>Email</label>
+      <label className="m-1">Email</label>
       <input
+        className="m-2 form-control"
         type="email"
         name="email"
         placeholder="type email here"
         value={formData.email}
         onChange={handleInputChange}
+        required
       />
 
 
-      <label>Message</label>
+      <label className="m-1">Message</label>
       <input
+        className="m-2 form-control"
         type="message"
         name="message"
         placeholder="type messsage here"
         value={formData.message}
         onChange={handleInputChange}
+        required
       />
-
-<button type="submit">Submit</button>
-
-   </form>
-
- 
-
-  </div>
+    <button className="p-1 m-4 col-1" type="submit">Submit</button>
+    </form>
+</div>
 )
 }

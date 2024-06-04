@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 import AboutPage from './components/pages/AboutPage'
 import ContactPage from './components/pages/ContactPage'
 import ResumePage from './components/pages/ResumePage'
-import PortfolioPage from './components/pages/PortfolioPage'
+import PortfolioPage from './components/pages/Portfolio/PortfolioPage'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function App(){

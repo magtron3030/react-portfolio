@@ -7,9 +7,9 @@ import './Header.css'
   export default function Nav() {
   return (
     <header className="row">
-      <h1 className="col-5 p-3">Maggie's Portfolio</h1>
+      <h1 className="col-5 p-3 m-3">Maggie's Portfolio</h1>
 
-      <nav className="container col-6">
+      <nav className="container col-6 fs-4">
         <ul className= "row justify-content-end align-items-center list-unstyled">
           <li className="col-2 m-3">
             <a href="/" className="text-light text-decoration-none">About</a>
