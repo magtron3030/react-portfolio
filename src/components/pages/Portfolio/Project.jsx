@@ -15,7 +15,7 @@ return (
 
         {/* GitHub link*/}
         <a href={project.gitHub} target='_blank'>
-          <img src='/src/assets/github.svg' height="70px" alt='github logo' id='githublogo' />
+          <img src='/assets/github.svg' height="70px" alt='github logo' id='githublogo' />
         </a>
      
 
