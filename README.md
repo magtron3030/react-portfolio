@@ -1,8 +1,14 @@
-# React + Vite
+# React portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description 
+This is a professional portfolio with my top 6 projects, my resume, and a contact form. This will be used in my Linkedin and as a resource for finding my first job!
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshot
+(https://file%2B.vscode-resource.vscode-cdn.net/Users/maggiemcdowell/Documents/bootcamp/homework/react-portfolio/react-portfolio/src/assets/Screenshot%202024-06-05%20at%2012.12.20%20AM.png?version%3D1717568125031)
+
+## Links
+[Github]
+https://github.com/magtron3030/react-portfolio
+
+## [Netlify]
