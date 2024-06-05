@@ -6,5 +6,5 @@ body {
 }
 
 .content {
-  min-height: calc(100vh - 225px)
+  min-height: calc(100vh - 180px)
 }

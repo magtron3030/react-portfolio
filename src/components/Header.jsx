@@ -12,16 +12,16 @@ import './Header.css'
       <nav className="container col-6 fs-4">
         <ul className= "row justify-content-end align-items-center list-unstyled">
           <li className="col-2 m-3">
-            <a href="/" className="text-light text-decoration-none">About</a>
+            <NavLink to="/" className="text-light text-decoration-none">About</NavLink>
           </li>
           <li className="col-2 m-3">
-            <a href="/portfolio" className="col-2 text-light text-decoration-none">Portfolio</a>
+            <NavLink to="/portfolio" className="col-2 text-light text-decoration-none">Portfolio</NavLink>
           </li>
           <li className="col-2 m-3">
-            <a href="/contact" className="col-2 text-light text-decoration-none">Contact</a>
+            <NavLink to="/contact" className="col-2 text-light text-decoration-none">Contact</NavLink>
           </li>
           <li className="col-2 m-3">
-            <a href="/resume" className="col-2 text-light text-decoration-none">Resume</a>
+            <NavLink to="/resume" className="col-2 text-light text-decoration-none">Resume</NavLink>
           </li>
         </ul>
       </nav>

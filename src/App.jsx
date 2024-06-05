@@ -9,16 +9,18 @@ import ContactPage from './components/pages/ContactPage'
 import ResumePage from './components/pages/ResumePage'
 import PortfolioPage from './components/pages/Portfolio/PortfolioPage'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './index.css'
 
 export default function App(){
   return(
     
     <div className="viewport">
       
-    <Header />
+    
 
-    <div className="px-5 content">
+    <div className="content">
       <BrowserRouter basename='/'>
+      <Header />
         <Routes>
           <Route path="/" element={<AboutPage />} />
           <Route path="/portfolio" element={<PortfolioPage />} />
@@ -26,9 +28,10 @@ export default function App(){
           <Route path="/resume" element={<ResumePage />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
 
-    <Footer />
+   
 
     
   </div>
