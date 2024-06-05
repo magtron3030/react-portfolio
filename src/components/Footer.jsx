@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 
   export default function Footer() {
   return (
-    <footer className="row fixed-bottom">
+    <footer className="row">
        <nav className="container col-6 mt-3">
         <ul className= "row justify-content-between align-items-center list-unstyled">
           <li className="col-2">

@@ -17,7 +17,7 @@ export default function App(){
       
     <Header />
 
-    <div className="px-5">
+    <div className="px-5 content">
       <BrowserRouter basename='/'>
         <Routes>
           <Route path="/" element={<AboutPage />} />
